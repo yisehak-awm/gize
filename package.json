@@ -1,21 +1,21 @@
 {
-  "name": "ethiopian-date",
+  "name": "gize",
   "version": "1.0.0",
-  "description": "Ethiopian date module",
+  "description": "⏰ Ethiopian date utility library",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yisehak-awm/ethiopian-date.git"
+    "url": "git+https://github.com/yisehak-awm/gize.git"
   },
   "author": "yisehak.aw@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yisehak-awm/ethiopian-date/issues"
+    "url": "https://github.com/yisehak-awm/gize/issues"
   },
-  "homepage": "https://github.com/yisehak-awm/ethiopian-date#readme",
+  "homepage": "https://github.com/yisehak-awm/gize#readme",
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.9.0",
