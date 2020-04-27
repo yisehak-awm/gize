@@ -1,0 +1,33 @@
+{
+  "name": "ethiopian-date",
+  "version": "1.0.0",
+  "description": "Ethiopian date module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisehak-awm/ethiopian-date.git"
+  },
+  "author": "yisehak.aw@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yisehak-awm/ethiopian-date/issues"
+  },
+  "homepage": "https://github.com/yisehak-awm/ethiopian-date#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.4.0",
+    "husky": "^4.2.5",
+    "jest": "^25.4.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  }
+}
