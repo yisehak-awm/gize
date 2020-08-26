@@ -24,6 +24,7 @@
     "husky": "^4.2.5",
     "jest": "^25.4.0"
   },
+"publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "husky": {
     "hooks": {
       "pre-commit": "npm test",
